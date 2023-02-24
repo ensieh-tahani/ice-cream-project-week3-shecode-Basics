@@ -1,0 +1,69 @@
+ 
+        .container{
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 30px 45px;
+            font-family:'Times New Roman', Times, serif;
+            background: linear-gradient(179.4deg, rgb(253, 240, 233) 2.2%, rgb(255, 194, 203) 96.2%);
+        }
+        h1{
+            text-align: center;
+            color:#233142 ;
+        }
+        h2{
+            text-align: center;
+            color:#fff;
+            background:#f95959;
+            padding: 25px;
+            font-size:20px;
+            border-radius:10px;
+        }
+        img{
+            display: block;
+            margin: 0 auto;
+            max-width:100%;
+            border-radius:15px;
+
+        }
+        p{
+            line-height:2;
+            margin: 25px;
+            color: #233142;
+            font-size:18px;
+        }
+        .more-info{
+            text-decoration: none;
+            display: block;
+            color: #f95959;
+            cursor: pointer;
+            margin: 40px;
+        }
+        .more-info:hover{
+            color: #455d7a;
+            font-size:15px;
+            text-decoration: underline;
+            cursor: pointer;
+            
+        }
+        .buyButton{
+            display: block;
+            margin:25px auto;
+            color: #fff;
+            font-size:20px;
+            padding:20px 25px;
+            background:#233142;
+            border: none;
+            border-radius:15px;
+            box-shadow:5px 5px 8px rgba(0,0,0,0.3);
+            transition: all 150ms ease-in-out;
+        }
+        .buyButton:hover{
+            opacity:0.9;
+            cursor: pointer;
+
+        }
+        .footer{
+            text-align:center;
+            color: #233142;
+            font-size:14px;
+        }
